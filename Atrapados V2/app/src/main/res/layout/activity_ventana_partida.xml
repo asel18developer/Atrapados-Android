@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jesusgarcia.atrapados.VentanaPartida">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pregunta"
+        android:id="@+id/textView_pregunta_ventanaPartida"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_pregunta_ventanaPartida"
+        android:layout_below="@+id/textView_pregunta_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Respuesta correcta"
+        android:id="@+id/textView_respuestaCorrecta_ventanaPartida"
+        android:layout_below="@+id/editText_pregunta_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_respuestaCorrecta_ventanaPartida"
+        android:layout_below="@+id/textView_respuestaCorrecta_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText_pregunta_ventanaPartida"
+        android:layout_alignEnd="@+id/editText_pregunta_ventanaPartida" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Respuesta alternativa 1"
+        android:id="@+id/textView6_respuesta2_ventanaPartida"
+        android:layout_below="@+id/editText_respuestaCorrecta_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_respuesta2_ventanaPartida"
+        android:layout_below="@+id/textView6_respuesta2_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText_respuestaCorrecta_ventanaPartida"
+        android:layout_alignEnd="@+id/editText_respuestaCorrecta_ventanaPartida" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Respuesta alternativa 2"
+        android:id="@+id/textView_respuesta3_ventanaPartida"
+        android:layout_below="@+id/editText_respuesta2_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_respuesta3_ventanaPartida"
+        android:layout_below="@+id/textView_respuesta3_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText_respuesta2_ventanaPartida"
+        android:layout_alignEnd="@+id/editText_respuesta2_ventanaPartida" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Respuesta alternativa 3"
+        android:id="@+id/textView_respuesta4_ventanaPartida"
+        android:layout_below="@+id/editText_respuesta3_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_respuesta4_ventanaPartida"
+        android:layout_below="@+id/textView_respuesta4_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText_respuesta3_ventanaPartida"
+        android:layout_alignEnd="@+id/editText_respuesta3_ventanaPartida" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:id="@+id/button_eliminar_ventanaPartida"
+        android:layout_below="@+id/editText_respuesta4_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView_respuestaCorrecta_ventanaPartida"
+        android:layout_alignEnd="@+id/textView_respuestaCorrecta_ventanaPartida" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/button_guardarCambios_ventanaPartida"
+        android:layout_alignTop="@+id/button_eliminar_ventanaPartida"
+        android:layout_alignRight="@+id/editText_respuesta4_ventanaPartida"
+        android:layout_alignEnd="@+id/editText_respuesta4_ventanaPartida"
+        android:layout_toRightOf="@+id/button_eliminar_ventanaPartida"
+        android:layout_toEndOf="@+id/button_eliminar_ventanaPartida" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Partida"
+        android:id="@+id/textView_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir partida"
+        android:id="@+id/button_añadir_ventanaPartida"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/button_eliminar_ventanaPartida"
+        android:layout_alignRight="@+id/button_guardarCambios_ventanaPartida"
+        android:layout_alignEnd="@+id/button_guardarCambios_ventanaPartida"
+        android:layout_toRightOf="@+id/button_eliminar_ventanaPartida"
+        android:layout_toEndOf="@+id/button_eliminar_ventanaPartida" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar pregunta"
+        android:id="@+id/button_buscar_ventanaPartida"
+        android:layout_below="@+id/button_eliminar_ventanaPartida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

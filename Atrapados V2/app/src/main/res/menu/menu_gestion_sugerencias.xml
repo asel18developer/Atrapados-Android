@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ayuda_icon"
+
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ayuda2"
+        android:title="@string/ayuda" />
+
+
+    <item android:id="@+id/ayuda_text"
+
+
+        android:title="@string/ayuda" />
+
+    <item android:id="@+id/eliminarSugerencias_text"
+
+        android:title="@string/Eliminar_sugerencias"
+
+        />
+
+</menu>

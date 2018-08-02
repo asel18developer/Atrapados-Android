@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Atrapados</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="newItem" />
+    <string name="ayuda">Ayuda</string>
+    <string name="informacion">Información</string>
+    <string name="Eliminar">Eliminar partida</string>
+    <string name="Añadir_partida">Añadir partida</string>
+    <string name="Modificar">Modificar partida</string>
+    <string name="Eliminar_todas">Eliminar todas las partidas</string>
+    <string name="Añadir_usuario">Añadir usuario</string>
+    <string name="Eliminar_sugerencias">Eliminar todas las sugerencias</string>
+</resources>

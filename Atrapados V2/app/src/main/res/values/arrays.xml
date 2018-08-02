@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_tipos_usuarios">
+        <item>@string/Usuario</item>
+        <item>@string/Administrador</item>
+    </array>
+    <string name="Usuario">Usuario</string>
+    <string name="Administrador">Administrador</string>
+</resources>

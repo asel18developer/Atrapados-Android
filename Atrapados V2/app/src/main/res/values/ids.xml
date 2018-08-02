@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="new_item" type="id" />
+    <item name="ayuda" type="id">1</item>
+    <item name="informacion" type="id">informacion</item>
+</resources>
